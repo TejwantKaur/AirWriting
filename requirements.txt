@@ -10,3 +10,5 @@ seaborn
 scikit-learn
 pillow
 tqdm
+symspellpy
+transformers
