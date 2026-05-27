@@ -1,6 +1,5 @@
 torch
 torchvision
-opencv-contrib-python-headless
 mediapipe
 streamlit
 streamlit-webrtc
