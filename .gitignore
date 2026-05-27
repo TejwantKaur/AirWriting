@@ -1,0 +1,36 @@
+.venv/
+Adult_MVP
+data2
+frontend
+src2
+
+# Virtual env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts
+checkpoint-*/
+*.pt
+*.pth
+*.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+
+# Large model weights
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old Git metadata backup
+.git.backup-*/

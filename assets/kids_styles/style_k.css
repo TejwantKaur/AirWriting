@@ -1,0 +1,267 @@
+/* APP BACKGROUND */
+
+.stApp {
+    background:
+        linear-gradient(
+            135deg,
+            #fce7f3,
+            #fef9c3
+        );
+}
+
+/* HERO */
+
+.kids-hero {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.kids-hero h1 {
+    font-size: 64px;
+    font-weight: 800;
+    background:
+        linear-gradient(
+            135deg,
+            #d946ef,
+            #fb7185
+        );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kids-hero p {
+    font-size: 22px;
+    color: #374151;
+}
+
+/* CARD */
+
+[data-testid="stVerticalBlock"] > div:has(.practice-title) {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 32px;
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.08);
+
+    margin-bottom: 40px;
+}
+
+/* TITLES */
+
+.practice-title {
+
+    font-size: 42px;
+
+    font-weight: 800;
+
+    color: #111827;
+
+    margin-bottom: 30px;
+}
+
+.section-title {
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    color: #9333ea;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+/* BUTTONS */
+
+.kids-buttons .stButton > button {
+    height: 90px !important;
+    border: none;
+    border-radius: 24px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    background:
+        linear-gradient(
+            135deg,
+            #93c5fd,
+            #d8b4fe,
+            
+        ) !important;
+    transition: 0.25s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+.kids-buttons .stButton button p {
+    color: black !important;
+
+    font-weight: 700 !important;
+
+    font-size: 30px !important;
+}
+
+/* HOVER */
+
+.stButton > button:hover {
+
+    transform:
+        translateY(-4px);
+
+    background:
+        linear-gradient(
+            135deg,
+            #f59e0b,
+            #fb7185
+        );
+}
+
+/* PRACTICE ZONE */
+
+.practice-zone {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 28px;
+
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.08);
+}
+
+.practice-heading {
+
+    text-align: center;
+
+    font-size: 38px;
+
+    font-weight: 800;
+
+    color: #2563eb;
+}
+
+/* PREDICTION */
+
+.prediction-box {
+
+    margin-top: 20px;
+
+    padding: 20px;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #dbeafe,
+            #e0e7ff
+        );
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    color: #1e3a8a;
+}
+
+/* VIDEO */
+
+video {
+
+    border-radius: 24px !important;
+
+    overflow: hidden !important;
+}
+
+
+.navbar .stButton > button {
+
+    height: 55px;
+
+    padding: 0 24px;
+
+    border-radius: 16px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    background: rgba(255,255,255,0.12);
+
+    color: white;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(12px);
+}
+
+h1#ai-gen-write{
+    color: black;
+}
+
+/* =========================
+   KIDS PAGE BUTTONS
+========================= */
+
+button[kind="secondary"] {
+
+    background:
+        linear-gradient(
+            135deg,
+            #c084fc,
+            #fb7185
+        ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    border-radius: 22px !important;
+
+    /* height: 90px !important; */
+
+    /* font-size: 28px !important; */
+
+    /* font-weight: 700 !important; */
+
+    box-shadow:
+        0 10px 24px rgba(236,72,153,0.25) !important;
+}
+
+/* TEXT INSIDE BUTTON */
+
+button[kind="secondary"] p {
+
+    color: white !important;
+
+    /* font-size: 28px !important; */
+
+    font-weight: 700 !important;
+}
+
+/* HOVER */
+
+button[kind="secondary"]:hover {
+
+    background:
+        linear-gradient(
+            135deg,
+            #8b5cf6,
+            #ec4899
+        ) !important;
+
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 14px 28px rgba(236,72,153,0.35) !important;
+}

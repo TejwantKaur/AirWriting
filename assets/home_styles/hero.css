@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Permanent+Marker&display=swap');
+
+/* .air-writing-title {
+    font-family: 'Permanent Marker', cursive !important;
+    font-size: 80px !important;
+} */
+
+
+.hero {
+    border-radius: 150px !important;
+    padding-left: 80px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75vh;
+    gap: 60px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-left h1 {
+    font-size: 65px !important;
+    color: #cbd5e1 !important;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.hero-left p {
+    font-size: 22px;
+    color: #cbd5e1;
+    max-width: 520px;
+    margin-top: 18px;
+    line-height: 1.6;
+}
+
+.hero p{
+    color: #cbd5e1 !important;
+}
+
+.hero h1{
+    color: white !important;
+}
+
+/* BUTTON */
+.hero-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 15px;
+    background: linear-gradient(
+        90deg,
+        #8b5cf6,
+        #ec4899
+    );
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(236,72,153,0.5);
+}
+
+/* GLASS CARD */
+.glass-card {
+    width: 350px;
+    padding: 40px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 0 40px rgba(139,92,246,0.3);
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(18px);
+    box-shadow:0 0 30px rgba(139,92,246,0.25);
+}
+
+.glass-card p {
+    color: #cbd5e1 !important;
+}
+
+.glass-card h3 {
+    color: white !important;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, [class*="css"]  {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+body {
+    background: #0B1120;
+}
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #020617,
+        #0f172a,
+        #1e1b4b
+    );
+}
+
+.block-container {
+    padding-top: 1rem;
+    padding-left: 3rem !important;
+    padding-right: 3rem;
+    max-width: 100% !important;
+}
+
+/* HIDE STREAMLIT STUFF */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer, header {
+    visibility: hidden;
+}
+
+header[data-testid="stHeader"] {
+    display: none;
+}
